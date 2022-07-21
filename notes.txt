@@ -1,0 +1,14 @@
+DOM
+--> structural represntation of all nodes in HTML document
+--> UI representation
+--> required for dynamic change in UI
+
+Virtual-DOM
+Virtual DOM is a programming concept where virtual represntation of a UI is kept in
+memory and synced with Real DOM by library such as ReactDOM and this process is
+called reconciliation.
+
+Diffing
+--> Process of detecting the changed node from updated copy to pre-updated copy.
+--> It is done by diffing algorithm
+
